@@ -14,11 +14,19 @@ This is a modification of [Offical Pytorch code](https://github.com/wtjiang98/Be
 - Identities Loss (VGG)
 - Add Tensorboard
 
-Feel free to send me [pull requests](https://github.com/thaoshibe/awesome-makeup-transfer/pulls) (or [issues](https://github.com/thaoshibe/awesome-makeup-transfer/issues))
+🌿 If you have trouble running this code, feel free to send me an [issue](https://github.com/thaoshibe/BeautyGAN-pytorch-reimplementation/issues). I'll try my best to help you 👍.
 
 ---
 
 ### Requirements
+
+First, clone this repo:
+
+`git clone https://github.com/thaoshibe/BeautyGAN-pytorch-reimplementation.git`
+
+&
+
+`cd BeautyGAN-pytorch-reimplementation`
 
 Install all required python packages:
 
@@ -43,13 +51,19 @@ For example: I downloaded Makeup Transfer Dataset to /home/ubuntu/makeup_dataset
 
 ##### Tensorboard Snapshot
 
-Tensorboard captured at **epoch 0**. The results are unpleasant at this time. Don't worry. To get the final model, I trained the model until epoch 200 (about 1 week in RTX 1080Ti)
+Tensorboard captured at **epoch 0**. The results are unpleasant at this time. Don't worry 🔥. To get the final model, I trained the model until **epoch 200 (about ONE WEEEK** in RTX 1080Ti)
 
 | ![tensorboard_loss.png](./tensorboard_loss.png) | 
 |:--:| 
 | *Tensorboard Loss* |
 | ![tensorboard_images.png](./tensorboard_images.png) |
 | *Tensorboard Image*. First rows are fake images (results). Second are original images (inputs). Third are recycle images (reconstructed images)|
+
+---
+
+###### Acknowledgement
+
+This code is heavily based on [BeautyGAN - Offical Pytorch Implementation](https://github.com/wtjiang98/BeautyGAN_pytorch). Thanks `wtjiang98` so much to make his work available 🙏🙏🙏
 
 
 
