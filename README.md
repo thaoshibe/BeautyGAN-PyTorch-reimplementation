@@ -16,6 +16,10 @@ This is a modification of [Offical Pytorch code](https://github.com/wtjiang98/Be
 
 🌿 If you have trouble running this code, feel free to send me an [issue](https://github.com/thaoshibe/BeautyGAN-pytorch-reimplementation/issues). I'll try my best to help you 👍.
 
+> **_NOTE:_**: I got serveral checkpoint in [Google Drive](https://drive.google.com/drive/folders/1nNsxHFCvrko2QZ4a7LPCOkeGqB4wlYTk?usp=sharing). The results are not good as stated in the main paper, but check it if you like.
+
+For the best results, I recommend [original tensorflow pre-trained model](https://github.com/Honlan/BeautyGAN)
+
 ---
 
 ### Requirements
@@ -49,6 +53,12 @@ For example: I downloaded Makeup Transfer Dataset to /home/ubuntu/makeup_dataset
 
 ---
 
+##### Results Snapshot
+
+| ![result.png](./result.png) | 
+|:--:| 
+| *Results at epoch 80. From left to right: Original Image, Makeup Reference, Result* |
+
 ##### Tensorboard Snapshot
 
 Tensorboard captured at **epoch 0**. The results are unpleasant at this time. Don't worry 🔥. To get the final model, I trained the model until **epoch 200 (about ONE WEEEK** in RTX 1080Ti)
@@ -64,9 +74,6 @@ Tensorboard captured at **epoch 0**. The results are unpleasant at this time. Do
 ###### Acknowledgement
 
 This code is heavily based on [BeautyGAN - Offical Pytorch Implementation](https://github.com/wtjiang98/BeautyGAN_pytorch). Thanks `wtjiang98` so much to make his work available 🙏🙏🙏
-
-
-
 
 
 
